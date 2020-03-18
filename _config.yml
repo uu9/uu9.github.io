@@ -1,0 +1,24 @@
+title:              Sola no sorrow
+email:              3395538560@qq.com
+description:        苍蓝的天空，最终之彼方
+author:             Soranosro
+baseurl:            ""
+url:                "https://github.com/uu9/"
+
+# Social Profiles
+#twitter_username:   
+github_username:    uu9
+#facebook_username:  
+#linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
