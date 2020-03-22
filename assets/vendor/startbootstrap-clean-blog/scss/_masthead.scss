@@ -13,8 +13,10 @@ header.masthead {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: $gray-900;
-    opacity: 0.5;
+    //background-color: $gray-900;
+    background-color: linear-gradient(#ace0f9,#fff1eb);
+    //opacity: 0.5;
+    opacity: 0.7;
   }
   .page-heading,
   .post-heading,
