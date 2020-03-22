@@ -1,4 +1,5 @@
 var a = [
+    "background: #00000c",
     "linear-gradient(to bottom, #020111 85%, #191621 100%)",
     "linear-gradient(to bottom, #020111 60%, #20202c 100%)",
     "linear-gradient(to bottom, #020111 10%, #3a3a52 100%)",
