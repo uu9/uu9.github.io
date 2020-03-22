@@ -1,4 +1,3 @@
-<script>
 var a = [
     "linear-gradient(to bottom, #020111 85%, #191621 100%)",
     "linear-gradient(to bottom, #020111 60%, #20202c 100%)",
@@ -27,4 +26,3 @@ var o = document.getElementsByClassName("overlay")[0];
 var d = new Date();
 var dhours = d.getHours();
 o.style.background = a[parseInt(dhours)];
-</script>
