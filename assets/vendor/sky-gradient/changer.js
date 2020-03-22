@@ -1,3 +1,6 @@
 <script>
-document.getElementById("p2").style.color = "blue";
+var o = document.getElementById("changer");
+var d = new Date();
+var dhours = d.getHours();
+
 </script>
