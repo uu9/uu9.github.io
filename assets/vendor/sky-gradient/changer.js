@@ -22,8 +22,7 @@ var a = [
     "linear-gradient(to bottom, #071B26 0%, #071B26 30%, #8A3B12 80%, #240E03 100%)",
     "linear-gradient(to bottom, #010A10 30%, #59230B 80%, #2F1107 100%)",
     "linear-gradient(to bottom, #090401 50%, #4B1D06 100%)",
-    "linear-gradient(to bottom, #00000c 80%, #150800 100%)"
-    ]
+    "linear-gradient(to bottom, #00000c 80%, #150800 100%)"];
 var o = document.getElementsByClassName("overlay")[0];
 var d = new Date();
 var dhours = d.getHours();
