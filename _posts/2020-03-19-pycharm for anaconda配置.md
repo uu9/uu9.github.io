@@ -18,14 +18,14 @@ title: pycharm for anaconda配置
 
    1. 首先建议更改字体和主题
 
-      在File | Settings | Editor | Font中更改字体和大小，我的建议是Font为Monospaced，Size为16
+      在File &#124; Settings &#124; Editor &#124; Font中更改字体和大小，我的建议是Font为Monospaced，Size为16
 
-      在File | Settings | Appearance & Behavior | Appearance中更改主题，个人喜欢Darcula
+      在File &#124; Settings &#124; Appearance & Behavior &#124; Appearance中更改主题，个人喜欢Darcula
 
 
    2. 更改conda执行目录和终端
 
-      在File | Other Settings | Settings for New Project | Tools | Terminal中添加一个目录为“C:\Users\用户名\miniconda3\condabin”的PATH环境变量，下面的Shell path你也可以按照喜好来更改，但是不建议更改为powshell，否则黄色的powshell文字会让人无法忍受。
+      在File &#124; Other Settings &#124; Settings for New Project &#124; Tools &#124; Terminal中添加一个目录为“C:\Users\用户名\miniconda3\condabin”的PATH环境变量，下面的Shell path你也可以按照喜好来更改，但是不建议更改为powshell，否则黄色的powshell文字会让人无法忍受。
    3. conda与pip改源
 
       C:\Users\用户名\pip.ini中添加
