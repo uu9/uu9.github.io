@@ -4,7 +4,7 @@ title: pycharm for anaconda配置
 ---
 > pycharm非常好，conda非常好，pycharm for anaconda=非常非常好
 >
->                                                       -鲁迅
+>/                                                       -鲁迅
 
 1. 下载pycharm for anaconda并安装
 
