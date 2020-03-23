@@ -4,7 +4,7 @@ title: pycharm for anaconda配置
 ---
 > pycharm非常好，conda非常好，pycharm for anaconda=非常非常好
 >
->\-鲁迅
+> \-鲁迅
 
 1. 下载pycharm for anaconda并安装
 
@@ -21,8 +21,6 @@ title: pycharm for anaconda配置
       在File &#124; Settings &#124; Editor &#124; Font中更改字体和大小，我的建议是Font为Monospaced，Size为16
 
       在File &#124; Settings &#124; Appearance & Behavior &#124; Appearance中更改主题，个人喜欢Darcula
-
-
    2. 更改conda执行目录和终端
 
       在File &#124; Other Settings &#124; Settings for New Project &#124; Tools &#124; Terminal中添加一个目录为“C:\Users\用户名\miniconda3\condabin”的PATH环境变量，下面的Shell path你也可以按照喜好来更改，但是不建议更改为powshell，否则黄色的powshell文字会让人无法忍受。
@@ -33,10 +31,9 @@ title: pycharm for anaconda配置
       ```
       [global]
       index-url = https://pypi.douban.com/simple
-
       ```
 
-      C:\Users\用户名\.condarc中添加
+      C:\Users\用户名.condarc中添加
 
       ```
       ssl_verify: true
@@ -44,7 +41,6 @@ title: pycharm for anaconda配置
         - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
         - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
       show_channel_urls: true
-
       ```
 
       好了，你的源已经配置完成了
@@ -52,7 +48,7 @@ title: pycharm for anaconda配置
 
       新建一个Terminal，输入`conda -V`来查看输出，输出版本号即正常工作。
 
-      现在可以开始新建环境了，输入`conda create -n 名字`来创建一个新的虚拟环境。
+      现在可以开始新建环境了，输入`conda create -n 名字 python`来创建一个新的虚拟环境。
 
       如果你想指定版本，那么`conda create -n 名字 python=2.7`即可
 
