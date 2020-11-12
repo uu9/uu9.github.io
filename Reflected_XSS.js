@@ -1,4 +1,2 @@
-        <script type="text/javascript">
-        alert("hello there")
-        console.log(":）")
-        </script>
+alert("hello there")
+console.log(":）")
