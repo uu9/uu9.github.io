@@ -1,12 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
         <script type="text/javascript">
         alert("hello there")
         console.log(":）")
         </script>
-    </head>
-    <body>
-        Reflected XSS Test Page
-    </body>
-  </html>
