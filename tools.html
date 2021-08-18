@@ -61,6 +61,9 @@
                       d2.getMinutes(),
                       d2.getSeconds(),
                     ];
+                    var minutes = datevalues[4];
+                    var minutes = minutes.toString();
+                    datevalues[4] = minutes.length==1?'0'+minutes:minutes;
                     //alert(datevalues); //=> [2011, 3, 25, 23, 0, 0]
                     out += "在 "+datevalues[2]+'号 '+datevalues[3]+':'+datevalues[4]+" 恢复至树脂："+i+"<br>";
                   }
