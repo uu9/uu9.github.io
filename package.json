@@ -29,7 +29,7 @@
         "bootstrap": "5.1.1",
         "font-awesome": "4.7.0",
         "jquery": "3.6.0",
-        "startbootstrap-clean-blog": "6.0.5"
+        "startbootstrap-clean-blog": "6.0.8"
     },
     "devDependencies": {
         "browser-sync": "2.27.5",
