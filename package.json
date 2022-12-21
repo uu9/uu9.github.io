@@ -28,7 +28,7 @@
     "dependencies": {
         "bootstrap": "5.2.1",
         "font-awesome": "4.7.0",
-        "jquery": "3.6.0",
+        "jquery": "3.6.3",
         "startbootstrap-clean-blog": "6.0.8"
     },
     "devDependencies": {
