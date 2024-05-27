@@ -25,76 +25,21 @@
               <nav id="navbar-example" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <nav class="nav nav-pills flex-column">
-                  <a class="nav-link active" href="#item-1">树脂计算</a>
-                  <a class="nav-link" href="#item-2">体力转换经验值</a>
-                  <a class="nav-link" href="#item-3">玄学算命</a>
-                  <a class="nav-link" href="#item-4">圣遗物词条计算</a>
-		  <a class="nav-link" href="#item-5">原琴</a>
-		  <a class="nav-link" href="#item-6">卷积尺寸计算工具</a>
+                  <a class="nav-link" href="#item-1">玄学算命</a>
+		  <a class="nav-link" href="#item-2">卷积尺寸计算工具</a>
                 </nav>
               </nav>
             </div>
             <div class="col-8">
               <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" class="scrollspy-example-2"
                 tabindex="0">
-                <h4 id="item-1">树脂计算</h4>
-                <p>输入当前树脂，显示恢复各阶段树脂需要的时间</p>
-                <div class="form-floating mb-3">
-                  <input type="number" class="form-control" id="points" placeholder="0">
-                  <label for="floatingInput">当前树脂</label>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary">计算</button>
-                </div>
-                <!-------------------------------------------->
-                <script>
-                $("button").click(function(){
-                  var points = $("#points").val();
-                  var d = new Date();
-                  var stamp = d.getTime();
-                  var out = "";
-                  //1min=60000ms
-                  for(i=Number(points)-Number(points)%10+10;i<=160;i+=10){
-                    //alert((i-points)*60000*8);
-                    var d2 = new Date((i-points)*60000*8+stamp)
-                    datevalues = [
-                      d2.getFullYear(),
-                      d2.getMonth() + 1,
-                      d2.getDate(),
-                      d2.getHours(),
-                      d2.getMinutes(),
-                      d2.getSeconds(),
-                    ];
-                    var minutes = datevalues[4];
-                    var minutes = minutes.toString();
-                    datevalues[4] = minutes.length==1?'0'+minutes:minutes;
-                    //alert(datevalues); //=> [2011, 3, 25, 23, 0, 0]
-                    out += "在 "+datevalues[2]+'号 '+datevalues[3]+':'+datevalues[4]+" 恢复至树脂："+i+"<br>";
-                  }
-                  $("#dataArea").html(out);
-                });
-              </script>
-                <!-------------------------------------------->
                 <br>
                 <p id="dataArea">这会还啥也没有</p>
                 <br>
-                <h4 id="item-2">体力转换经验值</h4>
-                <p>经验值=体力×5，自己算</p>
-                <br>
-                <h4 id="item-3">玄学算命（bushi）</h4>
+                <h4 id="item-1">玄学算命（bushi）</h4>
                 <p>没写呢</p>
                 <br>
-                <h4 id="item-4">圣遗物词条计算</h4>
-                <p>@阿秋</p>
-                <p>@原作者：NGA-pressure_pressure</p>
-                <p><a href="http://spongem.com/ajglz/ys/ys.html" class="pe-auto">直通车</p>
-                <p><a href="https://bbs.nga.cn/read.php?tid=26655137" class="pe-auto">https://bbs.nga.cn/read.php?tid=26655137</a></p>
-		<br>
-		<h4 id="item-5">原琴</h4>
-                <p>模拟按键自动弹琴</p>
-                <p><a href="https://github.com/uu9/Gensound" class="pe-auto">直通车</a></p>
-                <br>
-		<h4 id="item-6">卷积尺寸计算工具</h4>
+		<h4 id="item-2">卷积尺寸计算工具</h4>
                 <p>计算数据经过各卷积层后的尺寸</p>
                 <p><a href="ml_tools.html" class="pe-auto">直通车</a></p>
                 <br>
